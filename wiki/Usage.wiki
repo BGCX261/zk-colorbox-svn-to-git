@@ -1,0 +1,35 @@
+#labels Featured
+==Usage==
+
+The color picker extends the standard zk textbox component and uses the javascript code from the project http://jscolor.com/ for the widget.
+
+Currently I have implemented the following properties (see javadoc or http://jscolor.com/ for a description):
+
+  * hash 
+  * caps
+  * required
+  * pickerPosition
+  * pickerMode
+  * pickerFace
+  * pickerClosable
+  * pickerCloseText 
+
+If you need another property from the jscolor script, let me know.
+
+==Installation==
+
+If you have a standard web application copy the file *colorbox.jar* into the directory WEB-INF/lib.
+
+==ZUML example==
+
+Here is an example:
+
+{{{
+<zk>
+  <colorbox id="field" hash="true" pickerPosition="right"/>
+</zk>
+}}}
+
+The result:
+
+http://zk-colorbox.googlecode.com/files/color-picker.png
